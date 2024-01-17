@@ -16,5 +16,7 @@ public class D03_Exact_Sum_Of_Real_Numbers {
             sum = sum.add(number);
         }
         System.out.println(sum);
+
+        scanner.close();
     }
 }
