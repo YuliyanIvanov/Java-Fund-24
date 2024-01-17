@@ -10,7 +10,7 @@ public class D10_Special_Numbers {
 
         for (int i = 1; i <= n; i++) {
             String specialStatus = getSpecialStatus(i);
-            System.out.printf("%d -> %s%n", i, specialStatus);
+            System.out.printf("%d -> %s\n", i, specialStatus);
         }
 
         scanner.close();
