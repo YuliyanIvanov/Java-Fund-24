@@ -17,7 +17,7 @@ public class E08_Beer_Kegs {
             double radius = Double.parseDouble(scanner.nextLine());
             int height = Integer.parseInt(scanner.nextLine());
 
-            double volume = Math.PI * (radius * radius) * height;
+            double volume = Math.PI * Math.pow(radius, 2) * height;
 
             if (volume > maxVolume) {
                 maxVolume = volume;
