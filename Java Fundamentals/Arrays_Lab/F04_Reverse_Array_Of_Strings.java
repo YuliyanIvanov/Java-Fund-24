@@ -18,7 +18,7 @@ public class F04_Reverse_Array_Of_Strings {
         int end = arr.length - 1;
 
         while (start < end) {
-            String temp = arr[start];
+            String temp = arr[start]; //temp - temporarily stores values
             arr[start] = arr[end];
             arr[end] = temp;
 
