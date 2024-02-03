@@ -37,7 +37,6 @@ public class D03_Zig_Zag_Arrays {
                 firstArray[position] = secondElement;
                 secondArray[position] = firstElement;
             }
-
             position++;
         }
     }
