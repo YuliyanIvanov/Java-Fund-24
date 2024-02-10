@@ -7,7 +7,10 @@ public class D08_Magic_Sum {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        int[] numbers = Arrays.stream(scanner.nextLine().split(" ")).mapToInt(Integer::parseInt).toArray();
+        int[] numbers = Arrays.stream(scanner.nextLine()
+                .split(" "))
+                .mapToInt(Integer::parseInt)
+                .toArray();
         int magicSum = Integer.parseInt(scanner.nextLine());
 
 
