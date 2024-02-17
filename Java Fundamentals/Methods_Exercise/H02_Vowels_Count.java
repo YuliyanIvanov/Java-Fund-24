@@ -20,25 +20,27 @@ public class H02_Vowels_Count {
 
         for (int i = 0; i < text.length(); i++) {
             char symbol = text.charAt(i);
-            /*switch (symbol){
-                case 'a':
-                    count++;
-                    break;
-                case 'e':
-                    count++;
-                    break;
-                case 'i':
-                    count++;
-                    break;
-                case 'o':
-                    count++;
-                    break;
-                case 'u':
-                    count++;
-                    break;
-                default:
-                    break;
-            }*/
+            /*
+            switch (symbol){
+                 case 'a':
+                     count++;
+                     break;
+                 case 'e':
+                     count++;
+                     break;
+                 case 'i':
+                     count++;
+                     break;
+                 case 'o':
+                     count++;
+                     break;
+                 case 'u':
+                     count++;
+                     break;
+                 default:
+                     break;
+             }
+            */
             if (symbol == 'a' ||
                     symbol == 'e' ||
                     symbol == 'i' ||
