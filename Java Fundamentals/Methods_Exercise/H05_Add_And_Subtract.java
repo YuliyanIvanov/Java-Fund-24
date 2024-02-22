@@ -16,11 +16,11 @@ public class H05_Add_And_Subtract {
         System.out.println(result);
     }
 
-    public static int sumOfTwoNumbers(int firstNumber, int secondNumber) {
+    private static int sumOfTwoNumbers(int firstNumber, int secondNumber) {
         return firstNumber + secondNumber;
     }
 
-    public static int subtractTwoNumbers(int firstNumber, int secondNumber) {
+    private static int subtractTwoNumbers(int firstNumber, int secondNumber) {
         return firstNumber - secondNumber;
     }
 }

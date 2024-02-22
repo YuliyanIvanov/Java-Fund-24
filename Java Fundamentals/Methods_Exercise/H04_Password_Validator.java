@@ -23,7 +23,7 @@ public class H04_Password_Validator {
         }
     }
 
-    public static boolean checkLength(String password) {
+    private static boolean checkLength(String password) {
         if (password.length() < 6 || password.length() > 10) {
             System.out.println("Password must be between 6 and 10 characters");
             return false;
@@ -31,7 +31,7 @@ public class H04_Password_Validator {
         return true;
     }
 
-    public static boolean checkCharacters(String password) {
+    private static boolean checkCharacters(String password) {
         for (int i = 0; i < password.length(); i++) {
             char currentChar = password.charAt(i);
             if (!Character.isLetterOrDigit(currentChar)) {
@@ -42,7 +42,7 @@ public class H04_Password_Validator {
         return true;
     }
 
-    public static boolean checkDigits(String password) {
+    private static boolean checkDigits(String password) {
         int digitCount = 0;
         for (int i = 0; i < password.length(); i++) {
             char currentChar = password.charAt(i);

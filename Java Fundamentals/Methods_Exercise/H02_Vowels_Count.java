@@ -13,7 +13,7 @@ public class H02_Vowels_Count {
         System.out.println(count);
     }
 
-    public static int vowelsCount(String text) {
+    private static int vowelsCount(String text) {
         int count = 0;
 
         text = text.toLowerCase();

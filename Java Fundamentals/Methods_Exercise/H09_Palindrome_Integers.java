@@ -20,7 +20,7 @@ public class H09_Palindrome_Integers {
         }
     }
 
-    public static boolean isPalindrome(int number) {
+    private static boolean isPalindrome(int number) {
         int reverse = 0;
         int original = number;
 
