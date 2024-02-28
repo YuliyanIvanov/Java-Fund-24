@@ -1,4 +1,4 @@
-package Lists_Lab;
+package Maps_Lambda_And_Stream_API_Lab;
 
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
