@@ -18,7 +18,7 @@ public class K01_Count_Real_Numbers {
         }
 
         for (double num : counts.keySet()) {
-            System.out.printf("%.0f -> %d%n", num, counts.get(num));
+            System.out.printf("%.0f -> %d\n", num, counts.get(num));
         }
     }
 }
