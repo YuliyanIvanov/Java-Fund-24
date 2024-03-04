@@ -18,10 +18,10 @@ public class I01_List_Manipulation_Basics {
         while (true) {
             String line = scanner.nextLine();
 
-
             if (line.equals("end")) {
                 break;
             }
+
             String[] tokens = line.split(" ");
 
             switch (tokens[0]) {
