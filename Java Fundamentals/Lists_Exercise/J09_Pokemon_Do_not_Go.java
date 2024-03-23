@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.stream.Collectors;
 
-public class J09_Pokemon_Dont_Go {
+public class J09_Pokemon_Do_not_Go {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
