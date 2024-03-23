@@ -1,7 +1,9 @@
+package Objects_And_Classes_Lab;
+
 import java.math.BigInteger;
 import java.util.Scanner;
 
-public class Big_Factorial {
+public class H03_Big_Factorial {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
