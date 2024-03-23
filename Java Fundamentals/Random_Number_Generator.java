@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Demo {
+public class Random_Number_Generator {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
