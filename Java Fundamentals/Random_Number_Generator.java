@@ -9,8 +9,8 @@ public class Random_Number_Generator {
         System.out.println("Enter 'start' to generate a random number or 'exit' to quit:");
 
         String command;
-        while (!(command = scanner.nextLine()).equals("exit")) {
-            if (command.equals("start")) {
+        while (!(command = scanner.nextLine()).equalsIgnoreCase("exit")) {
+            if (command.equalsIgnoreCase("start")) {
                 int randomNumber = random.nextInt(101);
                 System.out.println("Random number: " + randomNumber);
             } else {
