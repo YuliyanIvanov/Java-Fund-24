@@ -9,10 +9,10 @@ public class H05_Students {
         Scanner scanner = new Scanner(System.in);
 
         class Student {
-            private String firstName;
-            private String lastName;
-            private int age;
-            private String hometown;
+            private final String firstName;
+            private final String lastName;
+            private final int age;
+            private final String hometown;
 
             public Student(String firstName, String lastName, int age, String hometown) {
                 this.firstName = firstName;

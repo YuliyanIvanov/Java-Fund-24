@@ -9,8 +9,8 @@ public class H06_Students_2_point_0 {
         Scanner scanner = new Scanner(System.in);
 
         class Student {
-            private String firstName;
-            private String lastName;
+            private final String firstName;
+            private final String lastName;
             private int age;
             private String hometown;
 
